@@ -16,7 +16,7 @@ Place the labelled newick tree ("mammalian_REM2_codons.SA.FilterOutliers.fasta.t
 
 ### Before Colabfold
 
-run 'run_AncestralEvolution.sh`
+run `run_AncestralEvolution.sh`
 . This creates:
 .. mammalian_REM2_codons.SA.FilterOutliers.fasta.SLAC.json.aa.fasta
 .. mammalian_REM2_codons.SA.FilterOutliers.fasta.SLAC.json.dna.fasta
@@ -34,15 +34,15 @@ These are now ran through ColabFold to get the inferred protein structures. Resu
 
 ### After Colabfold
 
-run `run_TMAlign.sh` to get the TM-Align scores. These are placed in the 'results/TMAlignResults' folder as .txt files.
+run `run_TMAlign.sh` to get the TM-Align scores. These are placed in the `results/TMAlignResults` folder as .txt files.
 
-run 'scripts/tm_align_parser.py', this generates `tables/TM_Align_Results.csv`
+run `scripts/tm_align_parser.py`, this generates `tables/TM_Align_Results.csv`
 
-run 'notebooks/Combined_GeneticDistance_TMAlign_Analysis_Complete.py'.. this generates 'tables/TM_Align_Results_with_GeneticDistance-Complete.csv'
+run `notebooks/Combined_GeneticDistance_TMAlign_Analysis_Complete.py`.. this generates `tables/TM_Align_Results_with_GeneticDistance-Complete.csv`
 
 The labelled newick tree ("mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile.labelled") may need a semicolon ";" added to the end of it, to make it a correct newick formatted file.
 
-run 'notebooks/ReadTree.py'
+run `notebooks/ReadTree.py`.
 
 ## Visualization
 

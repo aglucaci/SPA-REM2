@@ -46,6 +46,6 @@ run `notebooks/ReadTree.py`.
 
 ## Visualization
 
-run 'notebooks/modelAdjustPairNames.py'. This creates the CSV file used for visualization.
+run `notebooks/modelAdjustPairNames.py`. This creates the CSV file used for visualization.
 
-run 'notebooks/viewAdjustPairNames.py'
+run `notebooks/viewAdjustPairNames.py`.

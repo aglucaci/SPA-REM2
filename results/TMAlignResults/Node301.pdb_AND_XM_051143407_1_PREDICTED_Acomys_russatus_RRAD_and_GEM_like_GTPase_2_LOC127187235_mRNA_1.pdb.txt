@@ -1,0 +1,27 @@
+
+ **************************************************************************
+ *                        TM-align (Version 20170708)                     *
+ * An algorithm for protein structure alignment and comparison            *
+ * Based on statistics:                                                   *
+ *       0.0 < TM-score < 0.30, random structural similarity              *
+ *       0.5 < TM-score < 1.00, in about the same fold                    *
+ * Reference: Y Zhang and J Skolnick, Nucl Acids Res 33, 2302-9 (2005)    *
+ * Please email your comments and suggestions to: zhng@umich.edu          *
+ **************************************************************************
+
+Name of Chain_1: Node301.pdb                                       
+Name of Chain_2: XM_051143407_1_PREDICTED_Acomys_russatus_RRAD_and_
+Length of Chain_1:  357 residues
+Length of Chain_2:  336 residues
+
+Aligned length=  254, RMSD=   4.26, Seq_ID=n_identical/n_aligned= 0.720
+TM-score= 0.59524 (if normalized by length of Chain_1)
+TM-score= 0.62931 (if normalized by length of Chain_2)
+TM-score= 0.61178 (if normalized by average length of chains = 346.5)
+(You should use TM-score normalized by length of the reference protein)
+
+(":" denotes aligned residue pairs of d < 5.0 A, "." denotes other aligned residues)
+MHT--------DL-DT-DMDTD----TETTALCPSGSHRASPPSPLQVSRPTPLIGTPTPEADA-----------------------TLLKKPEKLLAGLDRGGPPPAPGAPRRRGSMPVPYKH--------------------------QLRRAQAVDEL---------DWPPQASSSGSSDSLGSGEAAPTQKDGIFKVMLVGESGVGKSTLAGTFGGLQGDSAHEPENPEDTYERRIMVDKEEVTLVVYDIWEQGDAGGWLRDHCLQTGDAFLIVFSVTDRRSFSKVPETLLRLRAGRPHHDLPVILVGNKSDLARSREVSLEEGRHLAGTLSCKHIETSAALHHNTRELFEGAVRQIRLRRGRNRPDPRAAGGPRPEWGSPEGPAPPARRESLTKKAKRFLANLVP---RN-AK------FFKQRSRSCHDLSVL
+           .  .  .        ....                                                         ......                                                         .::..               ...:::: . . ...::::::::::::::::::::::::::: : ::   ::::::::.:::::::::::::::::::::::::::.:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::.. :::::::::.   . .. ....  .:........      .  .       ...:::.::.::.  
+---MHTDPDTIM-DT-DT----ETTALCSS----------------------------------SSLQASPPGTPTPEAETTSLKQKPEKLLA-------------------------------ELDRSGPPPVPGVPRRRGSMPVPYKHQLRRA------QAVDELDWPPQASSSG-S-S-DSLGSGDAALAQKDGVFKVMLVGESGVGKS-F-GG---LEGDSAHEMESSEDTYERRIMVDKEEVTLIVYDIWEQGDAGGWLQDHCLQTGDAFLIVFSVTDRRSFSKVPETLLRLRAGRPHHDLPVILVGNKSDLARSREVSLEEGRHLAGTLSCKHIETSAALHHNTRELFEGAVRQIRLRRGRGHAGG-RRPEPGSPDG---P-AP-PTRR--ESLTKKAKRF---LANL-VP-RNAKFFKQRSRSCHDLSVL--
+

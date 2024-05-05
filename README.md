@@ -17,10 +17,10 @@ Place the labelled newick tree ("mammalian_REM2_codons.SA.FilterOutliers.fasta.t
 ### Before Colabfold
 
 run `run_AncestralEvolution.sh`
-. This creates:
-.. mammalian_REM2_codons.SA.FilterOutliers.fasta.SLAC.json.aa.fasta
-.. mammalian_REM2_codons.SA.FilterOutliers.fasta.SLAC.json.dna.fasta
-.. mammalian_REM2_codons.SA.FilterOutliers.fasta.SLAC.json.msa.fasta
+. This creates: \ 
+.. mammalian_REM2_codons.SA.FilterOutliers.fasta.SLAC.json.aa.fasta \
+.. mammalian_REM2_codons.SA.FilterOutliers.fasta.SLAC.json.dna.fasta \ 
+.. mammalian_REM2_codons.SA.FilterOutliers.fasta.SLAC.json.msa.fasta \
 
 run `runTN93.sh` on the MSA fasta file to get TN93 genetic distances.
 
